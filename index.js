@@ -3,7 +3,10 @@ import dotenv from "dotenv";
 import mongoose from "mongoose";
 import authRoute from "./routes/auth.js";
 import usersRoute from "./routes/users.js";
-import adminRoute from "./routes/admin.js"
+import adminRoute from "./routes/admin.js";
+import houseRoute from "./routes/house.js";
+import roomRoute from "./routes/rooms.js";
+import bookingRoute from "./routes/bookings.js";
 import cookieParser from "cookie-parser";
 import cors from "cors";
 
@@ -33,7 +36,12 @@ app.use("/api/auth",authRoute);
 app.use("/api/users", usersRoute);
 // admin route
 app.use("/api/admin",adminRoute);
-
+// house route
+app.use("/api/house",houseRoute);
+// room route
+app.use("/api/room",roomRoute);
+// booking route
+app.use("/api/booking",bookingRoute)
 
 app.listen(process.env.PORT||8800, () => {
   connect();
