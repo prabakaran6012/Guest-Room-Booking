@@ -1,0 +1,87 @@
+[
+  {
+    "_id": "ae3bd9e0-4a6b-481e-82a2-8fbec65b0f4a",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8080/api/auth/register",
+    "url": "localhost:8080/api/auth/register",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-06T01:29:23.606Z",
+    "modified": "2022-11-06T01:49:11.879Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\":\"user3\",\n  \"email\":\"user3@mail.com\",\n  \"phone\":\"1234781\",\n  \"password\":\"user3\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "a5a686ce-f5bf-4c80-9350-1532eca50bd0",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8080/api/auth/login",
+    "url": "localhost:8080/api/auth/login",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-06T01:30:06.418Z",
+    "modified": "2022-11-06T02:18:17.055Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n \n  \"email\":\"admin@gmail.com\",\n\n  \"password\":\"admin\"\n \n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "a6733f24-fa61-40e7-8121-0a8056dee643",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8080/api/auth",
+    "url": "localhost:8080/api/auth",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-06T01:36:55.508Z",
+    "modified": "2022-11-06T01:36:55.533Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "039d703d-d8c9-4af3-bde6-48ec74ff703e",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8080/api/users/63670fe020fb6f924879d9ca",
+    "url": "localhost:8080/api/users/63670fe020fb6f924879d9ca",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-06T01:45:37.724Z",
+    "modified": "2022-11-06T01:45:38.069Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "15473dc8-3baf-4a93-8cdc-a5e767ca5a8a",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8080/api/users/63670fe020fb6f924879d9ca",
+    "url": "localhost:8080/api/admin/63661731020f161071e6282a",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2022-11-06T01:48:17.996Z",
+    "modified": "2022-11-06T02:22:07.160Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"phone\":\"11111111\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]

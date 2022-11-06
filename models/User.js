@@ -22,6 +22,10 @@ const UserSchema = new mongoose.Schema(
     isAdmin: {
       type: Boolean,
       default: false,
+    }, 
+    Booking: {
+      type: [String],
+      default:[],
     },
   },
   { timestamps: true }

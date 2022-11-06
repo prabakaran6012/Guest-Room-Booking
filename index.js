@@ -2,6 +2,8 @@ import express from "express";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
 import authRoute from "./routes/auth.js";
+import usersRoute from "./routes/users.js";
+import adminRoute from "./routes/admin.js"
 import cookieParser from "cookie-parser";
 import cors from "cors";
 
@@ -27,6 +29,10 @@ app.use(cookieParser())
 app.use(express.json());
 // authentication route
 app.use("/api/auth",authRoute);
+// users Route
+app.use("/api/users", usersRoute);
+// admin route
+app.use("/api/admin",adminRoute);
 
 
 app.listen(process.env.PORT||8800, () => {
