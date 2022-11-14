@@ -5,6 +5,7 @@
 # Backend
 1. download main branch code and extract it 
 2. inside the backend code =>  run the following command => npm run start
+Note : I forgot to add .gitignore on Backend, Kindly Add the .gitignore file and write /node_modules
 # AdminEnd and UserEnd
 1. inside the AdminEnd or UserEnd folder ( Note: Both React Apps are running the same Port 3000, so test one by one)
 2. Run The following command => 1. npm i
