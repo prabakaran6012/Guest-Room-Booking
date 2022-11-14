@@ -1,0 +1,182 @@
+[
+  {
+    "_id": "ae3bd9e0-4a6b-481e-82a2-8fbec65b0f4a",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8080/api/auth/register",
+    "url": "localhost:8080/api/auth/register",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-06T01:29:23.606Z",
+    "modified": "2022-11-09T07:22:32.303Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\":\"admin24\",\n  \"email\":\"admin@gmail.com\",\n  \"phone\":\"12347813\",\n  \"password\":\"admin24\",\n  \"isAdmin\":true\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "a5a686ce-f5bf-4c80-9350-1532eca50bd0",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8080/api/auth/login",
+    "url": "http://localhost:8080/api/auth/login",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-06T01:30:06.418Z",
+    "modified": "2022-11-10T15:50:05.108Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n \n  \"email\":\"admin23@gmail.com\",\n\n  \"password\":\"admin23\"\n \n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "a6733f24-fa61-40e7-8121-0a8056dee643",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8080/api/auth",
+    "url": "localhost:8080/api/auth",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-06T01:36:55.508Z",
+    "modified": "2022-11-06T01:36:55.533Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "039d703d-d8c9-4af3-bde6-48ec74ff703e",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8080/api/users/63670fe020fb6f924879d9ca",
+    "url": "localhost:8080/api/users/63670fe020fb6f924879d9ca",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-06T01:45:37.724Z",
+    "modified": "2022-11-06T01:45:38.069Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "15473dc8-3baf-4a93-8cdc-a5e767ca5a8a",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8080/api/users/63670fe020fb6f924879d9ca",
+    "url": "localhost:8080/api/admin/63661731020f161071e6282a",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2022-11-06T01:48:17.996Z",
+    "modified": "2022-11-06T02:22:07.160Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"phone\":\"11111111\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "5e66fd49-164e-423a-bb68-7a60900480f7",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/api/house/",
+    "url": "http://localhost:8080/api/house/all/",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-09T04:25:11.132Z",
+    "modified": "2022-11-10T15:50:46.352Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"id\":\"636b5641719f59a58fc5cf31\",\n \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNmI1NjQxNzE5ZjU5YTU4ZmM1Y2YzMSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY2ODA5NTQwNH0.F4MndavWowA9HyETETwh7q1r7HzAAhplM48Mwvl7cUY\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "59874a80-a193-43f3-99c4-c56842f9845e",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/api/auth/find",
+    "url": "http://localhost:8080/api/auth/find",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-10T12:43:48.160Z",
+    "modified": "2022-11-10T12:43:48.611Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"id\":\"636b5677719f59a58fc5cf36\",\n  \"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNmI1NjQxNzE5ZjU5YTU4ZmM1Y2YzMSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY2ODA4MzgwNn0.UR-rli8HeCR-Ar6NplcRvEPimjAnT_GM3VrsIcFAOKk\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "b8dc6f0c-53b5-4ac8-baa1-5b7deed8b422",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/api/house/find",
+    "url": "http://localhost:8080/api/house/find",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-10T12:44:50.574Z",
+    "modified": "2022-11-10T12:44:50.970Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"id\":\"636b5677719f59a58fc5cf36\",\n  \"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNmI1NjQxNzE5ZjU5YTU4ZmM1Y2YzMSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY2ODA4MzgwNn0.UR-rli8HeCR-Ar6NplcRvEPimjAnT_GM3VrsIcFAOKk\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "877348f8-fca9-4bfa-a825-e355b3c80656",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/api/house/",
+    "url": "http://localhost:8080/api/house/",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-10T14:56:25.033Z",
+    "modified": "2022-11-10T14:56:25.868Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"details\":{\n     \"adminId\":\"636b5641719f59a58fc5cf31\",\n     \"name\":\"HouseName\",\n     \"houseOwnerName\":\"HouseOwnerName\",\n      \"contactNumber\":\"6383002487\",\n      \"city\":\"City\",\n      \"address\":\"Address\",\n     \"photos\":\"https://cartrabbit.io/wp-content/uploads/elementor/thumbs/cartrabbit_logo-pkzmj5imgyigk48dds0gvfykru9ke5f3ntqh4ssbjk.png\",\n      \"desc\":\"Description\"\n  },\n  \"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNmI1NjQxNzE5ZjU5YTU4ZmM1Y2YzMSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY2ODA5MTg0Mn0.BOUXNmQTF88LEjFlvYKCPZi7aecK3xF5la6o7IoEBrs\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "8d955640-ac8c-4836-a291-908884a428c0",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/api/house/delete",
+    "url": "http://localhost:8080/api/house/delete",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2022-11-10T15:51:51.435Z",
+    "modified": "2022-11-10T16:17:10.306Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"id\":\"636d2019a91ac86f52f89a56\",\n  \"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNmI1NjQxNzE5ZjU5YTU4ZmM1Y2YzMSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY2ODA5NTMxMn0.R8UdvXcBRXTq0HHdhVtkZ6DPFrSKBbBH0XjMm_UzMaw\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
