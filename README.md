@@ -11,6 +11,15 @@ Note : I forgot to add .gitignore on Backend, Kindly Add the .gitignore file and
 2. Run The following command => 1. npm i
                                 2. npm run start
 
+Admin Login Details: ( You can Create a New admin As well)
+1. email=> Admin32@gmail.com  password=> Admin32
+2. email=> Admin33@gmail.com  password=> Admin33
+
+User Login Details: ( You can Create a New User As well)
+1. email=> Suresh@gmail.com password=> Suresh
+2. email=> Ramesh@gmail.com password=> Ramesh
+
+
 # BackEnd Deployment using Heroku CLI
 1. create account with heroku
 2. install heroku cli
